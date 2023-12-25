@@ -43,12 +43,12 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> +91 9613076697
                 </span>
               </div>
             </Col>
 
-            <Col lg="6" md="6" sm="6">
+            {/* <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className=" d-flex align-items-center gap-1">
                   <i class="ri-login-circle-line"></i> Login
@@ -58,7 +58,7 @@ const Header = () => {
                   <i class="ri-user-line"></i> Register
                 </Link>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
@@ -73,7 +73,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      <strong>Maa Annapurna </strong> tours and <br /> travels
                     </span>
                   </Link>
                 </h1>
@@ -86,8 +86,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>India</h4>
+                  <h6>Guwahati, Assam</h6>
                 </div>
               </div>
             </Col>
@@ -98,8 +98,8 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h4>Sunday to Saturday</h4>
+                  <h6>6am - 10pm</h6>
                 </div>
               </div>
             </Col>
@@ -145,14 +145,14 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
+            {/* <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />
                 <span>
                   <i class="ri-search-line"></i>
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

@@ -8,9 +8,7 @@ const AboutSection = ({ aboutClass }) => {
     <section
       className="about__section"
       style={
-        aboutClass === "aboutPage"
-          ? { marginTop: "0px" }
-          : { marginTop: "280px" }
+        aboutClass === "aboutPage" ? { marginTop: "0px" } : { marginTop: "0px" }
       }
     >
       <Container>
@@ -18,7 +16,10 @@ const AboutSection = ({ aboutClass }) => {
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to car rent service</h2>
+              <h2 className="section__title">
+                Welcome to <strong>Maa Annapurna </strong>
+                tours and travels
+              </h2>
               <p className="section__description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatum blanditiis esse accusantium dignissimos labore

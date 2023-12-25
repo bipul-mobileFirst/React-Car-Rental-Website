@@ -21,21 +21,21 @@ const Home = () => {
       <section className="p-0 hero__slider-section">
         <HeroSlider />
 
-        <div className="hero__form">
+        {/* <div className="hero__form">
           <Container>
             <Row className="form__row">
-              <Col lg="4" md="4">
+              <Col lg="5" md="5">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h3>Find your best car and tour package here</h3>
                 </div>
               </Col>
 
-              <Col lg="8" md="8" sm="12">
+              <Col lg="7" md="7" sm="12">
                 <FindCarForm />
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
       </section>
       {/* =========== about section ================ */}
       <AboutSection />
@@ -68,7 +68,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
+      {/* <BecomeDriverSection /> */}
 
       {/* =========== testimonial section =========== */}
       <section>
